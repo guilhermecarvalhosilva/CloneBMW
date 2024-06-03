@@ -1,0 +1,112 @@
+.principal {
+    background: url('../assets/v2-320azuk.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px 0px;
+
+    .cabecalho {
+        width: 90%;
+        height: 95px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid white;
+
+        .menu {
+            display: flex;
+            align-items: center;
+            gap: 0px 10px;
+            height: 100%;
+
+            .menu-item {
+                text-decoration: none;
+                color: white;
+                font-size: 1em;
+                font-weight: 700;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-bottom: 4px solid transparent;
+                transition: 0.35s;
+                padding: 0px 15px;
+               
+                &:hover {
+                    border-bottom: 4px solid blue;
+                }
+            }
+        }
+
+        .menu-icons {
+            display: flex;
+            align-items: center;
+            gap: 0px 30px;
+
+            .menu-icons-item {
+                cursor: pointer;
+                color: white;
+                font-size: 1.2em;
+            }
+        }
+    }
+
+    .escrita {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 25px 0px;
+
+        .paragrafo {
+            color: white;
+            font-size: 1.15em;
+
+            span {
+                font-weight: bold;
+            }
+        }
+
+        .escrita-item{
+            padding: 0px 0px 0px 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 15px 0px;
+
+            .titulo {
+                color: white;
+                font-size: 3.5em;
+                font-weight: 300;
+            }
+
+            .escrita-paragrafo {
+                color: white;
+                font-size: 1.1em;
+                font-weight: 300;
+            }
+
+            .botao {
+                cursor: pointer;
+                max-width: 200px;
+                width: 90%;
+                height: 60px;
+                background-color: transparent;
+                border: 1px solid white;
+                border-radius: 5px;
+                color: white;
+                font-size: 1.05em;
+                font-weight: 500;
+
+                &:hover {
+                    border: 3px solid white;
+                }
+            }
+        }
+    }
+}

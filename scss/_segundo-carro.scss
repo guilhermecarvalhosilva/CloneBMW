@@ -1,0 +1,46 @@
+.segundo-carro {
+    background: linear-gradient(to bottom, black, rgba(0, 0, 0, 0)), url('../assets/x3-6000x3666.png');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 800px;
+
+    .escrita{
+        width: 100%;
+        padding: 80px 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px 0px;
+
+        .titulo {
+            color: white;
+            font-size: 3.5em;
+            font-weight: 300;
+        }
+
+        
+        .paragrafo {
+            color: white;
+            font-size: 1.1em;
+            font-weight: 300;
+        }
+
+        .botao {
+            cursor: pointer;
+            max-width: 200px;
+            width: 90%;
+            height: 60px;
+            background-color: transparent;
+            border: 1px solid white;
+            border-radius: 5px;
+            color: white;
+            font-size: 1.05em;
+            font-weight: 500;
+
+            &:hover {
+                border: 3px solid white;
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+.primeiro-carro {
+    background: url('../assets/ix1-16-9.png');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+
+    .escrita{
+        width: 100%;
+        padding: 20px 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px 0px;
+
+        .titulo {
+            color: white;
+            font-size: 3.5em;
+            font-weight: 300;
+        }
+
+        
+        .paragrafo {
+            color: white;
+            font-size: 1.1em;
+            font-weight: 300;
+        }
+
+        .botao {
+            cursor: pointer;
+            max-width: 200px;
+            width: 90%;
+            height: 60px;
+            background-color: transparent;
+            border: 1px solid white;
+            border-radius: 5px;
+            color: white;
+            font-size: 1.05em;
+            font-weight: 500;
+
+            &:hover {
+                border: 3px solid white;
+            }
+        }
+    }
+}
+
